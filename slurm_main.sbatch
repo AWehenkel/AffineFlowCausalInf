@@ -4,10 +4,9 @@
 #SBATCH --output=slurm_log/carefl.%A.out
 #SBATCH --error=slurm_log/carefl.%A.err
 #
-#SBATCH -p gpu
 #SBATCH -N 1
-#SBATCH --mem=12G
-#SBATCH --time=0-23:00
+#SBATCH --mem=4G
+#SBATCH --time=0-1:00
 #
 #SBATCH --gres=gpu:1
 
