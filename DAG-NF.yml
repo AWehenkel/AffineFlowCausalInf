@@ -1,0 +1,24 @@
+name: DAG-NF
+channels:
+  - soumith
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - pip
+  - pip:
+    - h5py
+    - matplotlib
+    - networkx
+    - numpy
+    - pandas
+    - pillow
+    - pyyaml
+    - scikit-learn
+    - scipy
+    - seaborn
+    - tensorboard
+    - torch
+    - torchvision
+    - tqdm
+prefix: /Users/awehenkel/miniconda3/envs/DAG-NF
